@@ -1,0 +1,50 @@
+\section{Symbol Mind Reading Java Application}
+
+\subsection{Description}
+This Java AWT application is a simple graphical program that simulates a mind-reading trick. The user is prompted to think of any two-digit number, reverse the digits, and find the difference between the original and reversed numbers. The user then finds the resulting number in a grid of symbols, each labeled with a number from 0 to 98.
+
+The twist of the program is that all numbers divisible by 9 share the same symbol, which is randomly generated each time the program runs. This symbol is eventually revealed as the "mind-read" symbol when the user clicks the \texttt{Submit} button.
+
+\subsection{Features}
+\begin{itemize}
+    \item \textbf{Grid of Symbols:} The main window displays a grid of 99 symbols, each paired with a number from 0 to 98.
+    \item \textbf{Random Special Symbol:} A random symbol is assigned to all positions in the grid that are divisible by 9.
+    \item \textbf{Instructional Message:} The application provides a brief message at the top of the window that guides the user through the mental trick.
+    \item \textbf{Submit Button:} Once the user is ready, they click the \texttt{Submit} button to reveal the special symbol in a refreshed window.
+\end{itemize}
+
+\subsection{How It Works}
+\begin{enumerate}
+    \item The user is instructed to think of a two-digit number, reverse its digits, and subtract the smaller number from the larger number.
+    \item The user then finds the result in the grid of symbols and memorizes the corresponding symbol.
+    \item When the user clicks the \texttt{Submit} button, the application clears the grid and displays the special symbol associated with all multiples of 9, "reading the user's mind."
+\end{enumerate}
+
+\subsection{How to Run}
+To run the program:
+\begin{enumerate}
+    \item Compile the Java file using \texttt{javac SymbolApp.java}.
+    \item Run the compiled class using \texttt{java SymbolApp}.
+    \item The application window will appear, and the user can follow the on-screen instructions.
+\end{enumerate}
+
+\subsection{Customization}
+\begin{itemize}
+    \item The special symbol is generated randomly at the start of the application. You can modify the range of ASCII characters used for generating the symbol in the code if desired.
+    \item The grid layout and other UI elements are customizable through the \texttt{GridLayout} and other layout managers used in the AWT framework.
+\end{itemize}
+
+\subsubsection{Button Customization}
+The button has been customized as follows:
+
+\begin{verbatim}
+// Original Button Setup
+submitButton = new Button("Chin Tapak Dum Dum");
+submitButton.setPreferredSize(new Dimension(250, 60)); // Make the button larger
+submitButton.setFont(new Font("Serif", Font.BOLD | Font.ITALIC, 20)); // Change font style
+submitButton.setBackground(Color.RED); // Set background color
+submitButton.setForeground(Color.WHITE); // Set text color
+submitButton.setCursor(new Cursor(Cursor.HAND_CURSOR)); // Change cursor when hovering
+\end{verbatim}
+
+These modifications include changing the button's label to \texttt{"Chin Tapak Dum Dum"}, resizing the button, adjusting the font style, and altering the button's color scheme to enhance its appearance and usability.
