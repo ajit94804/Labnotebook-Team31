@@ -1,6 +1,6 @@
 # Lab Notebook - Team 31
 
-This repository contains the collaborative project for **Software Tools and Technology**. The project was completed using LaTeX and GitHub, demonstrating teamwork and proficiency in Git, C programming, Java, and LaTeX.
+This repository contains the collaborative project for **Software Tools and Technology**. The project was completed using LaTeX and GitHub, demonstrating teamwork and proficiency in Git and LaTeX.
 
 ## Team Members
 
