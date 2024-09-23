@@ -21,14 +21,14 @@ This repository contains the collaborative project for **Software Tools and Tech
   Registration No.: 233001010542
 
 ## Table of Contents
-1. [Introduction to Git](#introduction-to-git)
-2. [Calculator Program in C](#calculator-program-in-c)
-3. [Symbol Mind Reading Java Application](#symbol-mind-reading-java-application)
-4. [Introduction to LaTeX](#introduction-to-latex)
-5. [Creating LaTeX Repository using GitHub Desktop](#creating-latex-repository-using-github-desktop)
-6. [PDF Recreation in LaTeX](#pdf-recreation-in-latex)
-7. [Creating a CV in LaTeX](#creating-a-cv-in-latex)
-8. [Git Branching and Merging](#git-branching-and-merging)
+1. Introduction to Git
+2. Calculator Program in C
+3. Symbol Mind Reading Java Application
+4. Introduction to LaTeX
+5. Creating LaTeX Repository using GitHub Desktop
+6. PDF Recreation in LaTeX
+7. Creating a CV in LaTeX
+8. Git Branching and Merging
 
 ## Introduction to Git
 This section provides an overview of Git, a distributed version control system, and covers topics such as:
